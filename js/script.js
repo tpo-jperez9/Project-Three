@@ -128,7 +128,9 @@ paymentSelect.addEventListener('change', (event) => {
         } else if (eventValue === paymentMethodsChildren[3].className) {
             paymentHideController(paymentMethodsChildren, 3, 2, 4);
 
-        } else if (eventValue === paymentMethodsChildren, 4, 2, 3);
+        } else if (eventValue === paymentMethodsChildren[4].className) {
+            paymentHideController(paymentMethodsChildren, 4, 2, 3);
+        }
 
         //Sets if credit card is the current selected payment method//
         (!paymentMethodsChildren[2].hidden) ? creditCardSelected = true: creditCardSelected = false;
